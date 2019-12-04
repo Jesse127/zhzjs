@@ -1,0 +1,7 @@
+.image{
+  width: 48rpx;
+  height: 48rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25rpx;
+}

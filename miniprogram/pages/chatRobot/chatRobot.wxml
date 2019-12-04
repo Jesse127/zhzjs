@@ -1,0 +1,28 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">闲聊机器人</view>
+</cu-custom>
+<view  wx:for="{{list}}"  wx:key="typeId" class="cu-chat">
+  <view wx:if="{{item.type}}" bindtap="audioPlay" data-src="{{item.src}}" class="cu-item self">
+    <view class="main">
+      <view class="action text-bold text-grey">{{item.shijian}}"</view>
+      <view class="content shadow">
+        <text class="cuIcon-sound text-xxl padding-right-xl"> </text>
+      </view>
+    </view>
+    <view class="cu-avatar radius" style="background-color:white;background-image:url(https://7465-test-ucnvu-1300622243.tcb.qcloud.la/app/%E5%B0%8F%E5%AD%A9.png?sign=494a8966484530fa4bfeb0458566f0ae&t=1574095989);"></view>
+  </view>
+  <view wx:else bindtap="audioPlay" data-src="{{item.src}}" class="cu-item">
+    <view class="cu-avatar radius" style="background-color:white;background-image:url(https://7465-test-ucnvu-1300622243.tcb.qcloud.la/app/%E6%9C%BA%E5%99%A8%E4%BA%BA.png?sign=0be25bdf6a1fba321e46ec1fd4447cb8&t=1574095930);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text class="cuIcon-sound text-xxl padding-right-xl"> </text>
+      </view>
+      <view class="action text-bold text-grey">{{item.shijian}}"</view>      
+    </view>
+  </view>
+</view>
+
+<view class="cu-bar foot input padding-bottom">
+  <button  bind:touchcancel="touchcancel" bind:touchstart="touchStart"bind:touchend="touchEnd" class="cu-btn bg-white shadow margin-bottom-xl" style="width:100%;">{{lubutn}}</button>
+</view>

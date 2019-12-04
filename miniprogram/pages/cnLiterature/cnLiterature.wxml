@@ -1,0 +1,30 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">国学精髓</view>
+</cu-custom>
+<view class="cu-list grid col-2 margin">
+  <view class="cu-item" bindtap="content" data-id="tangshi">
+      <image src="/images/cnLiterature/tangshi.png" class="image"></image>
+      <text>唐诗</text>
+  </view>
+  <view class="cu-item" bindtap="content" data-id="songci">
+      <image src="/images/cnLiterature/songci.png" class="image"></image>
+      <text>宋词</text>
+  </view>
+  <view class="cu-item" bindtap="content" data-id="lunyu">
+      <image src="/images/cnLiterature/lunyu.png" class="image"></image>
+      <text>论语</text>
+  </view>
+  <view class="cu-item" bindtap="content" data-id="sanzijing">
+      <image src="/images/cnLiterature/sanzijing.png" class="image"></image>
+      <text>三字经</text>
+  </view>
+  <view class="cu-item" bindtap="content" data-id="dizigui">
+      <image src="/images/cnLiterature/dizigui.png" class="image"></image>
+      <text>弟子规</text>
+  </view>
+  <view class="cu-item" bindtap="content" data-id="chengyu">
+      <image src="/images/cnLiterature/chengyu.png" class="image"></image>
+      <text>成语释义</text>
+  </view>
+</view>  

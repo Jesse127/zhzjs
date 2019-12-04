@@ -1,0 +1,26 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">英语学习区</view>
+</cu-custom>
+<view class="cu-list grid col-2 margin">
+  <view class="cu-item" bindtap="wordPage" data-title="food">
+      <image src="/images/english/food.png" class="image"></image>
+      <text>食物</text>
+  </view>
+  <view class="cu-item" bindtap="wordPage" data-title="animals">
+      <image src="/images/english/animals.png" class="image"></image>
+      <text>动物</text>
+  </view>
+  <view class="cu-item" bindtap="wordPage" data-title="fruit">
+      <image src="/images/english/fruit.png" class="image"></image>
+      <text>水果</text>
+  </view>
+  <view class="cu-item" bindtap="wordPage" data-title="country">
+      <image src="/images/english/china.png" class="image"></image>
+      <text>国家</text>
+  </view>
+  <view class="cu-item" bindtap="wordPage" data-title="transportation">
+      <image src="/images/english/transportation.png" class="image"></image>
+      <text>交通工具</text>
+  </view>
+</view>  

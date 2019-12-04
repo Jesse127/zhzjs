@@ -1,0 +1,21 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">{{title}}</view>
+</cu-custom>
+<view catchtouchmove="true" class="page bg-gradual-blue">
+  <image class="wordImage" src="{{img_url}}"></image>
+  <view bindtap="read" class="content padding-lr bg-blue light margin-top margin-left-xl margin-right-xl">
+    <view class="solid-bottom padding">
+      <text class="cuIcon-notification text">{{english}}</text>
+    </view>
+    <view class="padding text-xxl"> {{chinese}}</view>
+  </view>
+  <view class="solid-bottom padding">
+    <text bindtap="last" class="cuIcon-pullleft iconSize"></text>
+    <text bindtap="soundmy" class="iconSize">{{math_num}}</text>
+    <text bindtap="next" class="cuIcon-pullright iconSize"></text>
+  </view>
+  <button bind:touchcancel="touchcancel" bind:touchstart="touchStart"bind:touchend="touchEnd" class="cu-btn bg-white margin-tb-sm lg">
+      <text class="cuIcon-voice"></text>点击跟读单词</button>
+</view>
+    

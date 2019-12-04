@@ -1,0 +1,21 @@
+.png{
+  margin-bottom: 100rpx;
+}
+.nav-list{
+  justify-content: center;
+}
+.nav-li{
+  width: 80%;
+}
+.nav-title{
+  font-size: 48rpx;
+}
+.nav-title::first-letter{
+  font-size: 56rpx;
+}
+.nav-name{
+  font-size: 36rpx;
+}
+.lav-name::first-letter{
+  font-size: 44rpx;
+}

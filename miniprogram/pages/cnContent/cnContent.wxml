@@ -1,0 +1,19 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">{{title}}</view>
+</cu-custom>
+<view class="page">
+  <view class="pageContent bg-white light">
+    <view class="title">{{gs_title}}</view>
+    <view class="zuozhe">{{name}}</view>
+    <text wx:for="{{text}}" wx:key="typeId" class="con">{{text[index]}}</text>
+  </view>
+  <view class="control">
+    <text bindtap="last" class="cuIcon-backwardfill iconSize"></text>
+    <text style="{{play}}" bindtap="read" class="cuIcon-playfill iconSize"></text>
+    <text style="{{stop}}" bindtap="stop" class="cuIcon-stop iconSize"></text>   
+    <text bindtap="next" class="cuIcon-play_forward_fill iconSize"></text>
+  </view>
+  <button open-type="share" class="cu-btn bg-green light margin-top-xl">
+      <text class="cuIcon-share"></text>分享</button>
+</view>

@@ -1,0 +1,13 @@
+page{
+  padding-bottom: 150rpx;
+}
+.cu-bar.input{
+  padding-right: 0px;
+}
+.cu-btn{
+  font-size:36rpx;
+  height:100rpx;
+}
+.cu-bar{
+  background-color: grey;
+}

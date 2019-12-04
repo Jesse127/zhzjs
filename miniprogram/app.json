@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/imageIden/imageIden",
+    "pages/about/about",
+    "pages/cnLiterature/cnLiterature",
+    "pages/english/english",
+    "pages/chatRobot/chatRobot",
+    "pages/learnWord/learnWord",
+    "pages/cnContent/cnContent"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "智慧早教树",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "启蒙乐园",
+      "iconPath": "images/tabbar/study.png",
+      "selectedIconPath": "images/tabbar/study_cur.png"
+    },{
+      "pagePath": "pages/imageIden/imageIden",
+      "text": "图片识别",
+      "iconPath": "images/tabbar/image.png",
+      "selectedIconPath": "images/tabbar/image_cur.png"
+    },{
+      "pagePath": "pages/about/about",
+      "text": "关于我们",
+      "iconPath": "images/tabbar/about.png",
+      "selectedIconPath": "images/tabbar/about_cur.png"
+    }],
+    "color": "#a1a1a1",
+    "selectedColor": "#4610e7"
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

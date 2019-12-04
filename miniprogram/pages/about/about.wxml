@@ -1,0 +1,29 @@
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+    <image src="/images/logo.png" class="png" mode="widthFix"></image>
+    <view class="text-xl">智慧早教树</view>
+    <image src="/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+   <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-titles text-green"></text>
+      <text class="text-xl text-bold">关于我们</text>
+    </view>
+  </view>
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="text-xl">团队：广东机电职业技术学院—Pandas</text>
+    </view>
+  </view>
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="text-xl">团队成员：吴泽鑫 周俊伟</text>
+    </view>
+  </view>
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="text-xl">联系我们：4066468@qq.com</text>
+    </view>
+  </view>
+</scroll-view>
+ 

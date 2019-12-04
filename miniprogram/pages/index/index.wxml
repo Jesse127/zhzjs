@@ -1,0 +1,25 @@
+<scroll-view scroll-y class="scrollPage">
+  <image src='/images/study_index.png' mode='widthFix' class='png' style='width:100%;height:486rpx'></image>
+  <view class='nav-list'>
+  <navigator open-type="navigate" hover-class='none' url="../cnLiterature/cnLiterature" class="nav-li bg-blue" >
+    <view class="nav-title">国学精髓</view>
+    <view class="nav-name">ChineseLiterature</view>
+    <text class='cuIcon-activity'></text>
+  </navigator>
+  </view>
+  <view class='nav-list'>
+  <navigator open-type="navigate" hover-class='none' url="../english/english" class="nav-li bg-red" >
+    <view class="nav-title">英语学习区</view>
+    <view class="nav-name">LearnEnglish</view>
+    <text class='cuIcon-font'></text>
+  </navigator>
+  </view>
+  <view class='nav-list'>
+    <navigator open-type="navigate" hover-class='none' url="../chatRobot/chatRobot" class="nav-li bg-green" >
+      <view class="nav-title">闲聊机器人</view>
+      <view class="nav-name">ChatRobot</view>
+      <text class='cuIcon-messagefill'></text>
+    </navigator>
+  </view>
+  <view class='cu-tabbar-height'></view>
+</scroll-view>
